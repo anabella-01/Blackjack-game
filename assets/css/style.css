@@ -23,6 +23,12 @@ main{
     font-size: 2rem;
     background-color:red;
     padding-bottom: 0.25rem;
+    margin-top: 1rem;
+    width:100%;
+}
+
+.jugador-container{
+    margin-top: 1rem;
 }
 
 .btn-container{
@@ -34,24 +40,35 @@ main{
 }
 
 .btn{
-    border-radius: 0.6rem;
+    border-radius: 0.5rem;
     border: none;
-    padding: 0.625rem;
+    padding: 0.5rem;
     cursor: pointer;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+
     
 }
 
 .btn-1{
     background-color: rgba(0, 128, 21, 0.973);
-
+}
+.btn-1:hover{
+    background-color: rgba(60, 199, 5, 0.904) ;
 }
 
 .btn-2{
     background-color: rgb(0, 81, 255);
 }
+.btn-2:hover{
+    background-color: rgb(0, 140, 255) ;
+}
 .btn-3{
     background-color: rgba(255, 30, 0, 0.822);
+}
+.btn-3:hover{
+    background-color: rgba(212, 28, 4, 0.788);
 }
 
 .carta{
@@ -68,7 +85,7 @@ main{
 }
 
 
-/*
+
 .carta{
     position: relative;
     left: 100px;
@@ -84,7 +101,7 @@ main{
         left: 100px;
         margin-left: -75px;
         width: 150px;
-        height: 250px;
+        height: 200px;
     }
 
-}*/
+}
